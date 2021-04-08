@@ -1,3 +1,151 @@
-#logo{
+*{
+margin: 0%;
+padding: 0%;
+    box-sizing: border-box;
+}
+#logotext{
     font-family: 'Pacifico', cursive;
+    display: inline;
+    float: right;
+    position: relative;
+    top: 7px;
+}
+header nav div h6{
+    position: relative;
+    left: 50px;
+    color: gray;
+}
+header nav div img {
+position: relative;
+top:15px;
+}
+header{
+    width: 90%;
+    margin-left: 200px;
+}
+.hr{
+    background-image: url('../img/hr-img.png');
+    width: 85%;
+    height: 25px;
+    margin-top: 200px;
+    clear: both;
+    margin-left: 10%;
+
+
+
+}
+header nav div {
+
+    display: inline;
+    float: left;
+}
+header nav ul{
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+header nav ul li {
+
+    display: inline;
+    list-style: none;
+
+
+}
+#last{
+margin-left: 10px;
+
+}
+body{
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+#hero{
+    margin-top: 95px;
+}
+
+#hero h2{
+    float: left;
+    margin-left: 15%;
+    font-family: 'Dela Gothic One', cursive;
+}
+#bigimg{
+    margin-right: 130px;
+    margin-top: 40px;
+    clear: both;
+    text-align: center;
+    left: 20px;
+
+}
+#print{
+    float: right;
+}
+small{
+    float: right;
+    color: gray;
+    margin-right: 100px;
+}
+#hero h6{
+    position: relative;
+    top: 40px;
+margin-right: 20%;
+color: gray;
+
+}
+#hero p{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#checkbox{
+    text-align: center;
+    background-image: url('../img/list-bg.png');
+}
+
+
+#list1{
+    float: left;
+    margin-left: 30%;
+}
+
+#list2{
+    float: right;
+    margin-right: 30%;
+}
+
+#vc{
+    float: left;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+#vc h2{
+    display: inline;
+    position: relative;
+    
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: gray;
+}
+#vc img {
+}
+
+button{
+    float: right;
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(228, 29, 29);
+    padding: 4px;
+    color: seashell;
+}
+
+
+footer img{
+    text-align: center;
+    clear: both;
+
 }
